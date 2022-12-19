@@ -1,0 +1,23 @@
+{
+  "name": "exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aiman99aleryany/nodeExercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aiman99aleryany/nodeExercises/issues"
+  },
+  "homepage": "https://github.com/aiman99aleryany/nodeExercises#readme",
+  "dependencies": {
+    "figlet": "^1.5.2"
+  }
+}
