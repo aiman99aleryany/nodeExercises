@@ -1,0 +1,15 @@
+{
+  "name": "exercises",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aiman99aleryany/nodeExercises.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aiman99aleryany/nodeExercises/issues"
+  },
+  "homepage": "https://github.com/aiman99aleryany/nodeExercises#readme"
+}
