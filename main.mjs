@@ -11,26 +11,19 @@ function luckyDraw(player) {
 
 const people = ["Joe", "Caroline", "Sabrina"];
 
-// const getDraws = async (people, luckyDrawCallBack) => {
-//   return await people.map(async (person) => {
-//     try {
-//       return { [person]: await luckyDrawCallBack(person) };
-//     } catch (error) {
-//       return { [person]: "didn't win" };
-//     }
-//   });
-// };
-
-const executeDraws = (people, luckyDrawCallBack) => {
-  people.forEach((person) => {
-    luckyDrawCallBack(person)
-      .then((s) => console.log(s))
-      .catch((e) => console.log(`${person} didn't win`));
+const getDraws = async (people, luckyDrawCallBack) => {
+  return await people.map(async (person) => {
+    try {
+      return { [person]: await luckyDrawCallBack(person) };
+    } catch (error) {
+      return { [person]: "didn't win" };
+    }
   });
 };
 
-const run = () => {
-  executeDraws(people, luckyDraw);
+const run = async () => {
+  const results = await getDraws(people, luckyDraw);
+  console.log(results);
 };
 
 run();
