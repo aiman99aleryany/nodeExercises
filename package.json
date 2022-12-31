@@ -1,0 +1,23 @@
+{
+  "name": "exercises",
+  "description": "",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aiman99aleryany/nodeExercises.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aiman99aleryany/nodeExercises/issues"
+  },
+  "homepage": "https://github.com/aiman99aleryany/nodeExercises#readme",
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1"
+  }
+}
